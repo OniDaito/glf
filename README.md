@@ -4,7 +4,7 @@ A rust crate for reading GLF Files from [Tritech Sonar](https://www.tritech.co.u
 
 ## Documentation
 
-Documentation is available at [https://onidaito.github.io/glf/](https://onidaito.github.io/glf/).
+Documentation is available at [https://docs.rs/glf/0.2.0/glf/](https://docs.rs/glf/0.2.0/glf/).
 
 ## Building
 
