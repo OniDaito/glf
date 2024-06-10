@@ -1,14 +1,15 @@
 [package]
 name = "glf"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-
 license = "MIT OR Apache-2.0"
 description = "A Rust Library to read the GLF files produced by the Tritech Sonar."
 authors = ["Benjamin Blundell"]
 readme = "README.md"
 homepage = "https://github.com/onidaito/glf"
 repository = "https://github.com/onidaito/glf"
+keywords = ["sonar", "science", "image", "tritech", "glf"]
+categories = ["multimedia::images", "hardware-support"]
 
 [dependencies]
 chrono = "0.4.26"
