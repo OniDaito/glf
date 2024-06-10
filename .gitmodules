@@ -1,0 +1,3 @@
+[submodule "pytritech_testdata"]
+	path = pytritech_testdata
+	url = git@github.com:OniDaito/pytritech_testdata.git

@@ -1,0 +1,30 @@
+[package]
+name = "glf"
+version = "0.1.0"
+edition = "2021"
+
+license = "MIT OR Apache-2.0"
+description = "A Rust Library to read the GLF files produced by the Tritech Sonar."
+authors = ["Benjamin Blundell"]
+readme = "README.md"
+homepage = "https://github.com/onidaito/glf"
+repository = "https://github.com/onidaito/glf"
+
+[dependencies]
+chrono = "0.4.26"
+chrono-tz = "0.8.5"
+zip = "0.6.6"
+byteorder = "1.5.0"
+zune-inflate = "0.2.0"
+image = "0.24.7"
+
+[lib]
+crate-type = ["lib"]
+crate-name = "glf"
+
+[dev-dependencies]
+criterion = { version = "0.4", features = ["html_reports"] }
+
+[[bench]]
+name = "glf_read"
+harness = false
